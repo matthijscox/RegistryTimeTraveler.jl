@@ -9,9 +9,10 @@ So this will help if:
 Note: RegistryTimeTraveler.jl will clone each registry twice, to try to reduce the download size.
 * Once to get only the registry GIT history and find the right commit.
 * And a second time to only clone the registry at that commit.
+
 At the time of writing this still downloads about 220 MB of the General registry.
 
-Note2: this is not fully reproducible, because some Base packages are tied to your Julia version. So you might have to install the package with the Julia version used at the package release date. (But I haven't tested RegistryTimeTraveler at Julia versions less than 1.9).
+Note2: this approach is still not fully reproducible, because some Base packages are tied to your Julia version. So you might have to install the package with the Julia version used at the package release date. (But I haven't tested RegistryTimeTraveler at Julia versions less than 1.9). It might also be that multiple packages were released in quick succession, in which case you may have to manually fiddle with the release date a bit.
 
 ## Example
 
