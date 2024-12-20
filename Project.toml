@@ -1,0 +1,10 @@
+name = "RegistryTimeTraveler"
+uuid = "6e255fe7-ae48-41c3-9a63-27b032ae9e75"
+authors = ["Matthijs Cox <matthijs.cox@asml.com>"]
+version = "0.1.0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+[compat]
+Pkg = "1"
